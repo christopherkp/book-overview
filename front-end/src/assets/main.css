@@ -1,0 +1,40 @@
+@import './base.css';
+
+#app {
+  max-width: 100vw;
+  min-width: 99vw;
+  min-height: 100vh;
+  margin: auto;
+  padding: 1rem;
+  font-weight: normal;
+  color: #F2EAEB;
+  background-color: #2a2a38;
+  text-align: center;
+}
+
+body {
+  background-color: #2a2a38;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: #bdc6e6;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(256, 100%, 90%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+  }
+}
